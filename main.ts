@@ -13,11 +13,11 @@ basic.pause(100)
 let numberOfCookiesClicked: number
 
 input.onButtonPressed(Button.A, function () {
-    numberOfCookiesClicked = numberOfCookiesClicked + 1
-    basic.showNumber(numberOfCookiesClicked)
+  numberOfCookiesClicked = numberOfCookiesClicked + 1
+  basic.showNumber(numberOfCookiesClicked)
 })
 
 input.onButtonPressed(Button.B, function () {
-    numberOfCookiesClicked = 0
-    basic.showNumber(numberOfCookiesClicked)
+  numberOfCookiesClicked = 0
+  basic.showNumber(numberOfCookiesClicked)
 })
